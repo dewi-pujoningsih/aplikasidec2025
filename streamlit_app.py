@@ -6,7 +6,7 @@ number = st.number_input(
     "Masukkan angka dengan 0 desimal",
     min_value=0,
     max_value=10000,
-    "
+    
 )
 
 
