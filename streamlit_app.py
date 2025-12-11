@@ -1,2 +1,4 @@
 import streamlit as st
-st.write("Hello, *World!* :sunglasses:")
+
+st.title("Projek LPK 2025")
+st.title("_NTP_ is :blue[cool] :sunglasses:")
