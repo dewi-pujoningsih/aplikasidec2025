@@ -1,6 +1,8 @@
 import streamlit as st
+with st.container():
+    st.write("This is inside the container")
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+    # You can call any Streamlit command, including custom components:
+    st.bar_chart(np.random.randn(50, 3))
+
+st.write("This is outside the container")
